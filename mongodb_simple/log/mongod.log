@@ -1,0 +1,36 @@
+2016-09-14T15:19:41.838+0800 I CONTROL  [initandlisten] MongoDB starting : pid=9206 port=12345 dbpath=/Users/lixueli/codes/mongodb-demo/mongodb_simple/data 64-bit host=lixueli-mac
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten] db version v3.2.9
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 0.9.8zh 14 Jan 2016
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten] allocator: system
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten] modules: none
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten] build environment:
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2016-09-14T15:19:41.840+0800 I CONTROL  [initandlisten] options: { config: "conf/mongod.conf", net: { port: 12345 }, processManagement: { fork: true }, storage: { dbPath: "data" }, systemLog: { destination: "file", path: "log/mongod.log" } }
+2016-09-14T15:19:41.843+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2016-09-14T15:19:42.403+0800 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-09-14T15:19:42.407+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/Users/lixueli/codes/mongodb-demo/mongodb_simple/data/diagnostic.data'
+2016-09-14T15:19:42.591+0800 I NETWORK  [initandlisten] waiting for connections on port 12345
+2016-09-14T15:19:42.739+0800 W NETWORK  [HostnameCanonicalizationWorker] Failed to obtain address information for hostname lixueli-mac: nodename nor servname provided, or not known
+2016-09-14T15:41:41.450+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49970 #1 (1 connection now open)
+2016-09-14T15:44:31.789+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50199 #2 (2 connections now open)
+2016-09-14T15:44:31.856+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50200 #3 (3 connections now open)
+2016-09-14T15:44:37.931+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50209 #4 (4 connections now open)
+2016-09-14T15:44:37.996+0800 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50210 #5 (5 connections now open)
+2016-09-14T15:44:56.852+0800 I COMMAND  [conn1] terminating, shutdown command received
+2016-09-14T15:44:56.852+0800 I FTDC     [conn1] Shutting down full-time diagnostic data capture
+2016-09-14T15:44:56.855+0800 I CONTROL  [conn1] now exiting
+2016-09-14T15:44:56.855+0800 I NETWORK  [conn1] shutdown: going to close listening sockets...
+2016-09-14T15:44:56.856+0800 I NETWORK  [conn1] closing listening socket: 6
+2016-09-14T15:44:56.856+0800 I NETWORK  [conn1] closing listening socket: 7
+2016-09-14T15:44:56.856+0800 I NETWORK  [conn1] removing socket file: /tmp/mongodb-12345.sock
+2016-09-14T15:44:56.857+0800 I NETWORK  [conn1] shutdown: going to flush diaglog...
+2016-09-14T15:44:56.857+0800 I NETWORK  [conn1] shutdown: going to close sockets...
+2016-09-14T15:44:56.857+0800 I STORAGE  [conn1] WiredTigerKVEngine shutting down
+2016-09-14T15:44:56.860+0800 I NETWORK  [conn5] end connection 127.0.0.1:50210 (4 connections now open)
+2016-09-14T15:44:56.860+0800 I NETWORK  [conn2] end connection 127.0.0.1:50199 (4 connections now open)
+2016-09-14T15:44:56.860+0800 I NETWORK  [conn4] end connection 127.0.0.1:50209 (4 connections now open)
+2016-09-14T15:44:56.861+0800 I NETWORK  [conn3] end connection 127.0.0.1:50200 (4 connections now open)
+2016-09-14T15:44:56.981+0800 I STORAGE  [conn1] shutdown: removing fs lock...
+2016-09-14T15:44:56.981+0800 I CONTROL  [conn1] dbexit:  rc: 0
