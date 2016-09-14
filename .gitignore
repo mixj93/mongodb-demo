@@ -1,1 +1,6 @@
 .DS_Store
+journal
+diagnostic.data
+*.wt
+*.lock
+*.turtle
